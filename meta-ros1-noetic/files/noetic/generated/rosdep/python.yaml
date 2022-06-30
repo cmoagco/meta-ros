@@ -6201,15 +6201,15 @@ python3-distro:
   gentoo: [dev-python/distro]
   nixos: [python3Packages.distro]
   ubuntu: [python3-distro]
-python3-distutils:
+python3-setuptools:
   debian:
-    '*': [python3-distutils]
+    '*': [python3-setuptools]
     stretch: null
   fedora: [python3]
   gentoo: [dev-lang/python]
   nixos: [python3]
   ubuntu:
-    '*': [python3-distutils]
+    '*': [python3-setuptools]
     xenial: null
 python3-django:
   debian: [python3-django]

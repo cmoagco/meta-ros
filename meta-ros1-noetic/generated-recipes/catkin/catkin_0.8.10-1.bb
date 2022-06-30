@@ -10,7 +10,7 @@ AUTHOR = "Michael Carroll <michael@openrobotics.org>"
 ROS_AUTHOR = "Troy Straszheim"
 HOMEPAGE = "http://wiki.ros.org/catkin"
 SECTION = "devel"
-LICENSE = "BSD"
+LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 ROS_CN = "catkin"
@@ -30,7 +30,7 @@ ROS_EXPORT_DEPENDS = " \
     gtest \
     python3-catkin-pkg \
     python3-empy \
-    python3-nose \
+    python3-nose-yanc \
 "
 
 ROS_BUILDTOOL_EXPORT_DEPENDS = " \
@@ -46,7 +46,7 @@ ROS_EXEC_DEPENDS = " \
 # Currently informational only -- see http://www.ros.org/reps/rep-0149.html#dependency-tags.
 ROS_TEST_DEPENDS = " \
     python3-mock \
-    python3-nose \
+    python3-nose-yanc \
 "
 
 DEPENDS = "${ROS_BUILD_DEPENDS} ${ROS_BUILDTOOL_DEPENDS}"

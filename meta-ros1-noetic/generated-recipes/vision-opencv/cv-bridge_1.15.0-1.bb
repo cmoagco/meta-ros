@@ -4,6 +4,7 @@
 
 inherit ros_distro_noetic
 inherit ros_superflore_generated
+inherit cuda
 
 DESCRIPTION = "This contains CvBridge, which converts between ROS     Image messages and OpenCV images."
 AUTHOR = "Vincent Rabaud <vincent.rabaud@gmail.com>"
@@ -22,6 +23,8 @@ ROS_BUILD_DEPENDS = " \
     python3 \
     rosconsole \
     sensor-msgs \
+    cuda-nvcc \
+    cuda-nvcc-headers \
 "
 
 ROS_BUILDTOOL_DEPENDS = " \

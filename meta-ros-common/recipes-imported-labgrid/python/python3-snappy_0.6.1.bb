@@ -4,5 +4,5 @@
 inherit setuptools3
 require python-snappy.inc
 
-SRC_URI[md5sum] = "0c06bbed70a8390b55a60f5ee79a27d2"
-SRC_URI[sha256sum] = "385fb216e7d1241f70c14c2bea3f042ec235caa65d708294f1ece50d3efa5de3"
+SRC_URI[md5sum] = "fc84cfa3526fba06d66f0d0b2e764300"
+SRC_URI[sha256sum] = "b6a107ab06206acc5359d4c5632bd9b22d448702a79b3169b0c62e0fb808bb2a"
